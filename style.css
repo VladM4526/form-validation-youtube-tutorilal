@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Mulish", sans-serif;
+}
+
+.container-background {
+    background: #1E599F;
+    padding: 258px 480px;
+}
+
+.main-container {
+    width: 944px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.container-title {
+    background: #113F76;
+    border-radius: 20px 0px 0px 20px;
+    padding: 226px 143px;
+}
+
+.title-welcome {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.25;
+    color: #fff;
+}
+
+.form-list-item {
+    margin-top: 20px;
+}
+
+.form-list-item:first-child {
+    margin-top: 30px;
+}
+
+.container-form {
+    width: 371px;
+    margin: 24px 40px 24px 73px;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+.container-form-input {
+    width: 371px;
+    position: relative;
+}
+
+/* form input */
+
+.input-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+.container-form-input-svg {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 24px;
+    bottom: 16px;
+    display: block;
+}
+
+.form-input {
+    width: 323px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.25;
+    border: none;
+    outline: none;
+    background: #EBEBEB;
+    padding: 16px 24px;
+    color: #717171;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 7px;
+}
+
+.form-input::placeholder {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.25;
+    color: #717171;
+}
+
+/* submit button */
+
+.container-submit {
+    width: 371px;
+    position: relative;
+}
+
+.submit-button {
+    padding: 11px 148px;
+    background: #1E599F;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.25;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.submit-button-svg {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    bottom: 11px;
+    right: 24px;
+    display: block;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container-background">
+        <div class="main-container">
+            <div class="container-title">
+                <h1 class="title-welcome">Welcome</h1>
+            </div>
+            <form class="container-form">
+                <h1 class="form-title">Create account</h1>
+                <ul class="form-list">
+                    <li class="form-list-item">
+                        <div class="container-form-input">
+                            <h1 class="input-title">Name</h1>
+                            <input class="form-input" type="text" placeholder="Your name">
+                            <svg class="container-form-input-svg">
+                                <use href="./img/set-icons.svg#icon-mdi_user"></use>
+                            </svg>
+                        </div>
+                    </li>
+                    <li class="form-list-item">
+                        <div class="container-form-input">
+                            <h1 class="input-title">Email</h1>
+                            <input class="form-input email" type="email" placeholder="Your email" >
+                            <svg class="container-form-input-svg">
+                                <use href="./img/set-icons.svg#icon-ic_baseline-email"></use>
+                            </svg>
+                        </div>
+                    </li>
+                    <li class="form-list-item">
+                        <div class="container-form-input">
+                            <h1 class="input-title">Password</h1>
+                            <input class="form-input password" type="password" placeholder="Your password" required>
+                            <svg class="container-form-input-svg">
+                                <use href="./img/set-icons.svg#icon-material-symbols_lock"></use>
+                            </svg>
+                        </div>
+                    </li>
+                    <li class="form-list-item">
+                        <div class="container-submit">
+                            <input class="submit-button" type="submit" value="Create">
+                            <svg class="submit-button-svg">
+                                <use href="./img/set-icons.svg#icon-right-arrow"></use>
+                            </svg>
+                        </div>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
